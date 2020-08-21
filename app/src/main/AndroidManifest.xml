@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.incred.photogallery">
+    package="com.project.photogallery">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -11,9 +11,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".PhotosApplication"
+        android:name="com.project.photogallery.PhotosApplication"
         android:theme="@style/AppTheme">
-        <activity android:name="com.incred.photogallery.view.home.HomeActivity">
+        <activity android:name="com.project.photogallery.view.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
